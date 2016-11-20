@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify
 
 # scope = 'playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private streaming user-library-read'
 
-token='BQBQdYv3_ZoWzieGgiLg-tYv2weboZ6WJW1i_U1TFHoBmWajx9c1HCSktBAxodEjGuNnLSACP54re3IGjPl9SdiBi0ANKfoLvKJGk8jK8pXGovEEXvUsju9hvcQkDVFhwus5ApEPCFIm74f-z1SmeKCk87eKmWHJvc91OdS5KcLRZkV4xegW5wnrhacLQw4Wh4Y_PurFqepaHlJ3xmphwEXNphBcdqwbt07S7HAp6-Yl1nAjfQalfqTdoJK-DFkwtblO8SVLKstSFzkEnB5-luiNxDbtmBMO_JPhvGNzxHpEXbLr'
+token='BQD0diCgx8BWtfTC2kl5XBuF-nGKMJlGgp4_XsCIjoR-STaMpuDtesnyhCSJlRPmx8BtC85FzRtr_GthtQ-cy8riXiCkUGeW7C-cNe9eghjlO0HTz7dDZxqlop0yaYfPKOXj64LZNUz3C75oe4xzAB3fWoWaQ7biOO0zg_WZI2GzM_c81CVaIFSbW0ijOUltIBY5dfeGKPwU7OVmp3AjQwzXBxRSXr27_yCCFBetYEzHNX_S6qR04roOohy90YjdOd52fDw271BY5Xe37CqpD1C9pLA13pRsC6l-T1dqAwCdScOC'
 app = Flask(__name__)
 
 
@@ -151,7 +151,7 @@ def search_artist(artist):
 
 
 def get_rec():
-    results = sp.recommendations(seed_tracks=['4WGENqnUmbv0Ml9NwXMlsD'], limit=20)
+    results = sp.recommendations(seed_tracks=['4WGENqnUmbv0Ml9NwXMlsD','3XJpQ65m90QFmogv8MH1pG','6CMKxvTzWB53CXrkWAdXul'], limit=20)
     track = random.choice(results['tracks'])
 
 
