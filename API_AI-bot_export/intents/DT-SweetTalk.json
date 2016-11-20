@@ -1,0 +1,169 @@
+{
+  "id": "33f4e7b5-838c-4893-8e44-5faf48a2c3f4",
+  "name": "DT-SweetTalk",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "7580941b-04f1-4913-aa6b-41b14518d84d",
+      "data": [
+        {
+          "text": "Oh really? Why is that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a0a2ce7e-5e23-44b9-96a4-acd1f337237b",
+      "data": [
+        {
+          "text": "Why is that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "16fea372-c716-4a41-a679-55c4378eb9ba",
+      "data": [
+        {
+          "text": "what do you want to do to me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9461dd88-c053-4e4d-a739-98c733ea6761",
+      "data": [
+        {
+          "text": "you are very considerate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "133528c5-f9f3-4fc5-b10a-f0626cd01980",
+      "data": [
+        {
+          "text": "That is so nice of you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "046059c5-6a8c-4e11-9a16-ad2b692a8cbd",
+      "data": [
+        {
+          "text": "i am feeling a little lonely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eff5ac38-4b7b-4fd6-9f01-d59b8d4a4ee3",
+      "data": [
+        {
+          "text": "soooooo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65704f94-81a5-4a61-8fad-cc1fa2506ec0",
+      "data": [
+        {
+          "text": "I need some affection"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90db7279-51e5-49cc-ac59-d8feb9d3a92e",
+      "data": [
+        {
+          "text": "hug my real tight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5f5bc23-c602-4816-8f82-eccf4607ede3",
+      "data": [
+        {
+          "text": "I need someone to hold me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c26b2670-5ced-400d-9884-fa16c413e5c2",
+      "data": [
+        {
+          "text": "You are so sweet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee6e11ec-b7cc-40f5-9463-963d0ef18226",
+      "data": [
+        {
+          "text": "I love to talk to you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e1275d7-8653-484c-ab34-876240d99758",
+      "data": [
+        {
+          "text": "I like you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You are the prettiest girl I\u0027ve ever met.",
+            "You are so beautiful. Inside and out.",
+            "You are my sun and stars.",
+            "I love to spend time with you.",
+            "I want to cuddle and make love to you.",
+            "I want to caress your beautiful body.",
+            "I want to kiss every inch of you."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

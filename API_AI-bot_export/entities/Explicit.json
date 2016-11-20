@@ -1,0 +1,58 @@
+{
+  "id": "da1bcaef-d9bb-4180-82e0-7b0758386169",
+  "name": "Explicit",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "to fuck",
+      "synonyms": [
+        "to fuck"
+      ]
+    },
+    {
+      "value": "sex",
+      "synonyms": [
+        "sex"
+      ]
+    },
+    {
+      "value": "shit",
+      "synonyms": [
+        "shit"
+      ]
+    },
+    {
+      "value": "vagina",
+      "synonyms": [
+        "vagina"
+      ]
+    },
+    {
+      "value": "cock",
+      "synonyms": [
+        "cock",
+        "penis"
+      ]
+    },
+    {
+      "value": "rough",
+      "synonyms": [
+        "rough"
+      ]
+    },
+    {
+      "value": "cum",
+      "synonyms": [
+        "cum"
+      ]
+    },
+    {
+      "value": "pussy",
+      "synonyms": [
+        "pussy"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

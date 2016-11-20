@@ -1,0 +1,58 @@
+{
+  "id": "131406f8-596c-4ffd-b011-dc244c8a6af7",
+  "name": "placetest",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "5acd37be-ba87-4530-9eca-50052bd45d27",
+      "data": [
+        {
+          "text": "placetest"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "payload": {
+            "facebook": {
+              "text": "Please share your location:",
+              "quick_replies": [
+                {
+                  "content_type": "location"
+                }
+              ]
+            },
+            "kik": {
+              "type": "",
+              "body": ""
+            },
+            "slack": {
+              "text": "",
+              "attachments": []
+            },
+            "telegram": {
+              "text": ""
+            }
+          },
+          "type": 4
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

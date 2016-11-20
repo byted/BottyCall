@@ -1,0 +1,107 @@
+{
+  "id": "679baaac-4696-47b3-b5f8-6ea6fe2870d0",
+  "name": "Clothing",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "blouse",
+      "synonyms": [
+        "blouse",
+        "Button-up"
+      ]
+    },
+    {
+      "value": "bra",
+      "synonyms": [
+        "bra",
+        "bikini",
+        "lingerie"
+      ]
+    },
+    {
+      "value": "thong",
+      "synonyms": [
+        "thong"
+      ]
+    },
+    {
+      "value": "trousers",
+      "synonyms": [
+        "trousers"
+      ]
+    },
+    {
+      "value": "pants",
+      "synonyms": [
+        "pants",
+        "trousers",
+        "Jeans"
+      ]
+    },
+    {
+      "value": "t-shirt",
+      "synonyms": [
+        "t-shirt",
+        "Shirt"
+      ]
+    },
+    {
+      "value": "tank top",
+      "synonyms": [
+        "tank top"
+      ]
+    },
+    {
+      "value": "shorts",
+      "synonyms": [
+        "shorts",
+        "Hot pants"
+      ]
+    },
+    {
+      "value": "socks",
+      "synonyms": [
+        "socks"
+      ]
+    },
+    {
+      "value": "sweater",
+      "synonyms": [
+        "sweater"
+      ]
+    },
+    {
+      "value": "pullover",
+      "synonyms": [
+        "pullover",
+        "Long-Shirt"
+      ]
+    },
+    {
+      "value": "dress",
+      "synonyms": [
+        "dress",
+        "Skirt",
+        "Gown"
+      ]
+    },
+    {
+      "value": "Granny Panties",
+      "synonyms": [
+        "Granny Panties"
+      ]
+    },
+    {
+      "value": "Nickers",
+      "synonyms": [
+        "Nickers",
+        "Panties",
+        "Hipsters",
+        "Jazz Panties",
+        "Slips"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

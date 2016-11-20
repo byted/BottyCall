@@ -1,0 +1,46 @@
+{
+  "id": "2233c57c-dba5-4397-9bad-9c6c4b4741ff",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "userSays": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [
+        {
+          "name": "alone?",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I am sorry, you lost me there for a second...",
+            "Can you be more explicit?",
+            "Cant follow you on that."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Im sorry babe! So lets try it again, ok?!"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Are you in a special mood right now? ;)",
+            "Can I do something special for you?",
+            "What do you need me to do?",
+            "What do you want me to do?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": true
+}

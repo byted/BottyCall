@@ -1,0 +1,67 @@
+{
+  "id": "287aa29b-cac7-4d3e-a0f1-2beee407b303",
+  "name": "test",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "febaa263-bebc-4e58-aa13-4c214f61f29f",
+      "data": [
+        {
+          "text": "test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "test",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "https://open.spotify.com/user/cosmomag/playlist/11nEBi9lpsPaNlLlSsddkr"
+        },
+        {
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "title": "The Memory Of A Wife",
+                      "item_url": "https://open.spotify.com/track/6as1s4ieq3bYcVtHuoetzH",
+                      "image_url": "https://i.scdn.co/image/8257c18de2aaf1e16e91509d62d1d0b40123a39f",
+                      "subtitle": "Millie Jackson"
+                    }
+                  ]
+                }
+              }
+            },
+            "kik": {
+              "type": "",
+              "body": ""
+            },
+            "slack": {
+              "text": "",
+              "attachments": []
+            },
+            "telegram": {
+              "text": ""
+            }
+          },
+          "type": 4
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

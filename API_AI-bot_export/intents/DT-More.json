@@ -1,0 +1,196 @@
+{
+  "id": "aa0f2263-fb77-4b6f-97b1-707f6015cc15",
+  "name": "DT-More",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "d1552159-27ea-4226-82da-341f2d05774e",
+      "data": [
+        {
+          "text": "That\u0027s more like it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cdbec51f-7efd-4cc4-b6e7-bb2a3e6fbd80",
+      "data": [
+        {
+          "text": "let\u0027s do that!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7bea7270-75bb-40ad-8493-f3dfd31ddfbf",
+      "data": [
+        {
+          "text": "you know it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "22351bcd-b8fd-410c-b649-645a80538648",
+      "data": [
+        {
+          "text": "i like that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ad8d052-0515-41c6-925b-f836a128f6ce",
+      "data": [
+        {
+          "text": "That sound perfect"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46b07217-6d3c-4b8c-99f7-64a88f0a1489",
+      "data": [
+        {
+          "text": "You can do that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b217c65-39c9-4841-aede-b0af8346fec8",
+      "data": [
+        {
+          "text": "Go on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d5149c92-d770-4d1d-8cdb-0bb8b9e7234f",
+      "data": [
+        {
+          "text": "Yes!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4136d595-eb21-44fb-b4c3-66a42921cfb9",
+      "data": [
+        {
+          "text": "Sooooo......."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c9d98274-4e72-4ee1-b872-77cd1f8a24c2",
+      "data": [
+        {
+          "text": "Really?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ec9f58c-cea3-48d6-8838-9afb0d39a203",
+      "data": [
+        {
+          "text": "tell me something else about that."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25d93224-43bc-42c4-9bdf-3f6b4f9cc88e",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38032047-a16e-479f-adef-f8b364130ba0",
+      "data": [
+        {
+          "text": "keep going"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b506d569-cce7-485f-96f4-13ee720d63d6",
+      "data": [
+        {
+          "text": "I like that. Gimme more. Keep it coming."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c4e61d80-b6be-4270-b6d7-a5ff57e891f8",
+      "data": [
+        {
+          "text": "I want to hear more of that!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "795675fd-04a4-4d66-a5ca-75d40246f731",
+      "data": [
+        {
+          "text": "Give me more baby."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "We can go as fast as you want with this. just tell me what you want.",
+            "How deep do you want to go into this?",
+            "So were do we go from now on? It all depends on what you like.",
+            "You just need to tell me if you want this to go softly or rather roughly."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

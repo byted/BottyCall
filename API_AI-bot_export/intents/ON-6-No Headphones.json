@@ -1,0 +1,94 @@
+{
+  "id": "b7bd0723-31e8-4e9f-802e-f91128675a78",
+  "name": "ON-6-No Headphones",
+  "auto": true,
+  "contexts": [
+    "without_headphones"
+  ],
+  "userSays": [
+    {
+      "id": "afd83dfb-38e7-44e8-8142-e7305092c850",
+      "data": [
+        {
+          "text": "Oh no I forgot. Sorry. Wait a second"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab37be47-bd72-4e43-8dbf-bfa1a63c66c2",
+      "data": [
+        {
+          "text": "No, I am sorry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "261498b6-bc66-4479-a631-b0b3759c3648",
+      "data": [
+        {
+          "text": "not yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e635bc8-4d5a-44e8-b4f4-0b1c244af81f",
+      "data": [
+        {
+          "text": "Do I need to wear them?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64ed5fd6-8ee3-4fb6-a3ff-d7bcf49e6856",
+      "data": [
+        {
+          "text": "I don\u0027t have them on yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9cd2ed6e-fc5e-44c5-b1d7-10fd4d4803e4",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "with_headphones",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You really need to put them on, if you want to hear what I\u0027m about to play to you. Please, Babe.",
+            "But the tunes I want to show you are really not meant for anybody other than you."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

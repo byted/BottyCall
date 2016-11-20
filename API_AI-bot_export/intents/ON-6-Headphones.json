@@ -1,0 +1,145 @@
+{
+  "id": "10e98582-2807-4ff5-b3b7-b188b47ff380",
+  "name": "ON-6-Headphones",
+  "auto": true,
+  "contexts": [
+    "with_headphones"
+  ],
+  "userSays": [
+    {
+      "id": "9ea8910b-6aa0-4b81-8cae-7db18e08150f",
+      "data": [
+        {
+          "text": "No I do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "995b3329-3695-498e-a84e-8f702da7b91e",
+      "data": [
+        {
+          "text": "We are save now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "236f336f-df89-4cb0-9a79-326a72ed3933",
+      "data": [
+        {
+          "text": "No I have them on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c26c0112-b2b9-4d6e-8aed-76afa40d0015",
+      "data": [
+        {
+          "text": "Only i can hear what you are about to show me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fde4b58-9628-4d97-bea1-e689cc52628c",
+      "data": [
+        {
+          "text": "They are were they belong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "379d681e-fee5-45e2-bbf5-94377d84d477",
+      "data": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " step ahead"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1033d561-9915-4857-b346-eaebf35fa4f7",
+      "data": [
+        {
+          "text": "Way ahead of you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3022e879-b4ef-415e-99b4-20bd157161d8",
+      "data": [
+        {
+          "text": "Of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c706ff67-595d-43cf-8240-28f314f3a48c",
+      "data": [
+        {
+          "text": "yes I do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        },
+        {
+          "name": "hidden",
+          "lifespan": 5
+        },
+        {
+          "name": "change_music",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK, give me a second..."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

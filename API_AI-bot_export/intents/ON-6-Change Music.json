@@ -1,0 +1,186 @@
+{
+  "id": "416ed0c1-4f30-4cdd-8f8e-b70c7219e5cd",
+  "name": "ON-6-Change Music",
+  "auto": true,
+  "contexts": [
+    "change_music"
+  ],
+  "userSays": [
+    {
+      "id": "f6aec2e9-fa56-4a84-b920-b86523dc7eed",
+      "data": [
+        {
+          "text": "Do you have something other, for example by "
+        },
+        {
+          "text": "beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb47df93-4592-4268-837f-59296bf1d4ad",
+      "data": [
+        {
+          "text": "That\u0027s not what I like"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "309aa272-0e58-44c5-92cf-24f857bb06ae",
+      "data": [
+        {
+          "text": "That doesn\u0027t sound right. Do you have soemthing by "
+        },
+        {
+          "text": "the Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9b729ef9-2fd2-40cd-a8e5-3f091c80b1b9",
+      "data": [
+        {
+          "text": "I don\u0027t like that. How about some "
+        },
+        {
+          "text": "Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c27a2c4-4e7a-482a-8bde-a38915a0aa5f",
+      "data": [
+        {
+          "text": "I want to hear a song by "
+        },
+        {
+          "text": "the Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ee0159a-f078-4c87-af27-cad13d1fcf44",
+      "data": [
+        {
+          "text": "Play some "
+        },
+        {
+          "text": "Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "157c2680-8895-46ee-ba0f-6edbc9ac5980",
+      "data": [
+        {
+          "text": "Play "
+        },
+        {
+          "text": "Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "388d5827-681f-471e-a3d2-a1f556546a09",
+      "data": [
+        {
+          "text": "Beatles",
+          "alias": "artist",
+          "meta": "@sys.music-artist",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        },
+        {
+          "name": "hidden",
+          "lifespan": 5
+        },
+        {
+          "name": "change_music",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.music-artist",
+          "name": "artist",
+          "value": "$artist",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sure, Babe.",
+            "I am sorry you didn\u0027t like what I have shown you...",
+            "Of course, Babe, that\u0027s no Problem."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I think this what you\u0027re looking for.",
+            "That should do the trick.",
+            "Here is something nice by $artist ."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

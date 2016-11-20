@@ -1,0 +1,26 @@
+{
+  "id": "4a0321a5-7da8-4e49-a0db-5a442390bac2",
+  "name": "PublicC",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "PublicC",
+      "synonyms": [
+        "Work",
+        "public",
+        "public place",
+        "Restaurant",
+        "Theater",
+        "work"
+      ]
+    },
+    {
+      "value": "@PublicC",
+      "synonyms": [
+        "@PublicC"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

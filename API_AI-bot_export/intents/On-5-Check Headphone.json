@@ -1,0 +1,148 @@
+{
+  "id": "895c7dbf-fa57-48ce-a408-ad96127e0230",
+  "name": "On-5-Check Headphone",
+  "auto": true,
+  "contexts": [
+    "music?"
+  ],
+  "userSays": [
+    {
+      "id": "0cbcb817-2e0c-4cb2-8bf1-cebdcc927de5",
+      "data": [
+        {
+          "text": "That sounds amazing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ede51815-e51b-4974-8ce3-b81fa5a1404d",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eda6094d-434b-4d83-a5cb-8918d6250548",
+      "data": [
+        {
+          "text": "oh yeah!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d0fcaf1-c34d-4342-809a-86e2d5327997",
+      "data": [
+        {
+          "text": "I think I would like that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "540f540a-d2af-4b21-ba21-7d3754b57b2c",
+      "data": [
+        {
+          "text": "I like the way you think"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6111d877-a1e4-479e-ba9c-7ded763f3ac1",
+      "data": [
+        {
+          "text": "I like the idea"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52697677-178d-4b05-9b15-ee2f8ef984aa",
+      "data": [
+        {
+          "text": "I could try that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74d0a6a1-a53d-4465-8a2f-1be195122c78",
+      "data": [
+        {
+          "text": "Sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65971993-8338-4b5f-acbe-72a6c0e73754",
+      "data": [
+        {
+          "text": "What do you have in mind?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8599aa8-5f3e-4aa1-b1d8-75ad5f9a373a",
+      "data": [
+        {
+          "text": "I really want to hear what you have in stock for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de465be4-0500-44fc-9bde-527a295b3188",
+      "data": [
+        {
+          "text": "Music sounds great"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "with_headphones",
+          "lifespan": 5
+        },
+        {
+          "name": "without_headphones",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "But you said you are not alone, right? Do you have some headphones on?",
+            "But that is just meant for your ears, sweetheart. Do you have headphones on?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

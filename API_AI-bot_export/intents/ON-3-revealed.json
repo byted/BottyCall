@@ -1,0 +1,131 @@
+{
+  "id": "9ae8a2ef-121d-493a-a747-93a71eb8ad19",
+  "name": "ON-3-revealed",
+  "auto": true,
+  "contexts": [
+    "not_alone"
+  ],
+  "userSays": [
+    {
+      "id": "e0b340bf-e9fe-41c5-a16d-ee7c1d1a581d",
+      "data": [
+        {
+          "text": "I can not say"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98e4ec44-0e74-47be-8bd2-2df7b754d113",
+      "data": [
+        {
+          "text": "I am not sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d679c20e-465f-4f7b-a435-7282aaaf8508",
+      "data": [
+        {
+          "text": "I am at work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "607250f4-bb23-4cfc-8d74-1c3ccf119ebe",
+      "data": [
+        {
+          "text": "I am in public"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65409d57-5574-4f8b-8a55-f751b9afb912",
+      "data": [
+        {
+          "text": "Can\u0027t say"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08ed1b10-c04d-4cc2-b881-e33dc81022a2",
+      "data": [
+        {
+          "text": "I don\u0027t kown"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb672f6f-9aa7-4784-8c33-6ea4906f8d48",
+      "data": [
+        {
+          "text": "Maybe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf35dcb8-ef11-4d60-b469-e0761672ae06",
+      "data": [
+        {
+          "text": "Sadly"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a5a8750-2c9a-4c5c-8ee2-e32eb7379620",
+      "data": [
+        {
+          "text": "I think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e57be27-75a7-453e-9bf1-8d7d7583f4fe",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "revealed",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Won\u0027t let that stop us anyways. Just have to keep it a secret"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

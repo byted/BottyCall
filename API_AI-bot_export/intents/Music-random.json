@@ -1,0 +1,65 @@
+{
+  "id": "fbd9508c-5335-4005-9ca2-da8860a1a6e5",
+  "name": "Music-random",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "cf7b8512-6553-46e9-aef4-8c2446fd8dd0",
+      "data": [
+        {
+          "text": "Hit me with that dope shite."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8951548a-cf53-4d33-98bc-e6e45d65d86d",
+      "data": [
+        {
+          "text": "I\u0027d like to hear some tunes from"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b375aac2-0a08-4c6e-88be-d2e01df82784",
+      "data": [
+        {
+          "text": "I wanna hear music."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ede5ed19-af08-403f-bc01-35396bf7b621",
+      "data": [
+        {
+          "text": "Play me some tunes."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "suggest_random_song",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

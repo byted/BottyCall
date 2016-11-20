@@ -1,0 +1,82 @@
+{
+  "id": "7d0705ad-9bc1-4558-9ba5-f92ca694c4bb",
+  "name": "ON-0-ShortcutMusic",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "de2cdeaa-ab15-4291-9b68-5b9162752269",
+      "data": [
+        {
+          "text": "Do you think you could get me in the mood with some tunes?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b0dcc5d-5af5-4d2c-8d09-70b67159c0d0",
+      "data": [
+        {
+          "text": "I would like some ambient music"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58754498-4559-48b6-9144-2707ea0bc5ef",
+      "data": [
+        {
+          "text": "I want to get my freak on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc752fab-b025-4ad5-8a70-be31c0354c7b",
+      "data": [
+        {
+          "text": "I need something to get me in the groove"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d95f43ea-eaf1-4280-8faa-4e5331420f6d",
+      "data": [
+        {
+          "text": "Can you play me some sexy music?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "music?",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Of course, I have some suggestions for you. Do you want me to suggest something?",
+            "That is a very good idea, sweetheart! Should I search for something you might like?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

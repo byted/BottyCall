@@ -1,0 +1,279 @@
+{
+  "id": "551726b7-d77f-4448-9b5f-2233ae285015",
+  "name": "DT-Hardcore",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "a348c771-7b98-485c-95c7-7f614cbd40b4",
+      "data": [
+        {
+          "text": "Babe, just stop the "
+        },
+        {
+          "text": "sweet talk",
+          "alias": "StopThat",
+          "meta": "@StopThat",
+          "userDefined": false
+        },
+        {
+          "text": " already... I need you now. Hard!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "906eefa4-640d-4558-82e8-b924c2284010",
+      "data": [
+        {
+          "text": "Now we are talking!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "df9dafa9-270f-42f3-b815-36de6f6d2992",
+      "data": [
+        {
+          "text": "Stop the "
+        },
+        {
+          "text": "sweet talk",
+          "alias": "StopThat",
+          "meta": "@StopThat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d53ddde8-8d93-41bc-a862-e86ec2e10ece",
+      "data": [
+        {
+          "text": "I need you now!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "988f9e01-34aa-4b54-9892-5df3b8abc189",
+      "data": [
+        {
+          "text": "I need you hard!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c615f70f-7bb1-42b6-a294-b40c60087c2e",
+      "data": [
+        {
+          "text": "you are so hot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9fcccbb5-615c-4a15-9393-75e034184822",
+      "data": [
+        {
+          "text": "I want you to "
+        },
+        {
+          "text": "cum",
+          "alias": "Explicit",
+          "meta": "@Explicit",
+          "userDefined": true
+        },
+        {
+          "text": " on my face!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfe31d94-9191-4879-9818-0b23b66433b7",
+      "data": [
+        {
+          "text": "i am really tight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb7ef6a2-1cac-4d44-80ba-c01706aae1a5",
+      "data": [
+        {
+          "text": "deep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b26d863e-ca1a-4c3a-9bff-50f13eec4c24",
+      "data": [
+        {
+          "text": "spank me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "679c9d5c-2ada-4f6b-9c2a-a5383eab1ecc",
+      "data": [
+        {
+          "text": "I love "
+        },
+        {
+          "text": "Vagina",
+          "alias": "Explicit",
+          "meta": "@Explicit",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38de1adc-1f81-4470-90c3-a6772d56dbdc",
+      "data": [
+        {
+          "text": "I love "
+        },
+        {
+          "text": "cock",
+          "alias": "Explicit",
+          "meta": "@Explicit",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03f2b2a4-49d0-4465-b5a2-32d422c6482c",
+      "data": [
+        {
+          "text": "I want to feel you inside of me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "404ad7ad-6d4f-47b4-b820-6f54674c63aa",
+      "data": [
+        {
+          "text": "I\u0027m wet already."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21ca2119-1f41-46f5-99f1-5174eba4713d",
+      "data": [
+        {
+          "text": "I want it hard."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d08357f-cd72-42df-af80-a801d5f2f439",
+      "data": [
+        {
+          "text": "don\u0027t be too nice."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83bc08d9-6b6a-49b9-9788-e37624d565c8",
+      "data": [
+        {
+          "text": "I need it "
+        },
+        {
+          "text": "rough",
+          "alias": "Explicit",
+          "meta": "@Explicit",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Explicit",
+          "name": "Explicit",
+          "value": "$Explicit",
+          "isList": false
+        },
+        {
+          "dataType": "@StopThat",
+          "name": "StopThat",
+          "value": "$StopThat",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "$Explicit ? Alright,  let\u0027s get dirty",
+            "Who is doing $StopThat ?"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "You are a bad girl! I want to spank you so hard right now.",
+            "Naughty girl. Oh what I want to do to you right now.",
+            "I am gonna fuck you real hard.",
+            "I\u0027m gonna grab you by the pussy.",
+            "I want to get so close that sweat drips down our bodies.",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

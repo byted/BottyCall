@@ -1,0 +1,84 @@
+{
+  "id": "4898c3ef-e02c-4957-94fa-23926d37d468",
+  "name": "ON-2-Is Alone",
+  "auto": true,
+  "contexts": [
+    "alone?"
+  ],
+  "userSays": [
+    {
+      "id": "30d23e95-577c-49f9-8097-d50d267a7d70",
+      "data": [
+        {
+          "text": "Hell yeah!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01129dbb-1fc9-4015-979a-7b25f0446f7d",
+      "data": [
+        {
+          "text": "Of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa4dfebb-568d-4fd9-a27d-d044475833ee",
+      "data": [
+        {
+          "text": "I am"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1f1fa5a-a477-40f4-a33f-ffef7aa71a2d",
+      "data": [
+        {
+          "text": "For sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4c95f5a-2f19-4f29-9cc9-53272dce0cec",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "is_alone",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That\u0027s nice. Then let\u0027s proceed..",
+            "Great. Let\u0027s get down to business."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

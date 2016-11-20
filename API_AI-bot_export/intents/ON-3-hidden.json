@@ -1,0 +1,130 @@
+{
+  "id": "aef18499-efcf-44a0-a349-138245734cf1",
+  "name": "ON-3-hidden",
+  "auto": true,
+  "contexts": [
+    "not_alone"
+  ],
+  "userSays": [
+    {
+      "id": "6d9082c6-987a-424a-bf3e-f84fb9705467",
+      "data": [
+        {
+          "text": "I don\u0027t think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b30ccb0a-58d5-44c5-9d38-d54293680b56",
+      "data": [
+        {
+          "text": "I don\u0027t see a problem there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "352a17bf-c695-4b7c-a959-ab3b521ab3ec",
+      "data": [
+        {
+          "text": "It should be fine."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab7410f5-47b8-44d5-b17e-fabb633f3109",
+      "data": [
+        {
+          "text": "No visual contact to anyone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f210355-0caa-496a-af8f-5bee374946c3",
+      "data": [
+        {
+          "text": "We are fine on that account"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91500f28-3502-41c7-bd70-f8981d791ab7",
+      "data": [
+        {
+          "text": "Nobodys watching"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f212169-4d3c-4c7f-8f5b-98245e49304b",
+      "data": [
+        {
+          "text": "no one is watching"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fcf5fcd3-084d-496c-b7e2-0848cfff19a7",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "hidden",
+          "lifespan": 5
+        },
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That\u0027s nice!",
+            "So nothing is standing in our way..."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Oh, the possibilities..."
+        },
+        {
+          "type": 0,
+          "speech": [
+            "So, what are you wearing?",
+            "I\u0027m curious: what kind of underwear do you have on?",
+            "Tell me about your clothes, Babe."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

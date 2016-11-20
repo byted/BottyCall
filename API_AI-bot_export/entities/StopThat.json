@@ -1,0 +1,15 @@
+{
+  "id": "5dcb00e9-95bf-449a-ae6b-6d7b33ee7b31",
+  "name": "StopThat",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "sweet talk",
+      "synonyms": [
+        "sweet talk"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,164 @@
+{
+  "id": "85b006a4-4280-498b-ac39-31b506c0889c",
+  "name": "ON-0-Shortcut",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "2916f304-e48c-45ce-861b-a36273013fa9",
+      "data": [
+        {
+          "text": "I want sex immediately"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e1ec87e-904d-40d6-a557-132b2795ad5b",
+      "data": [
+        {
+          "text": "I want you now."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93cfd9c0-5b5a-4c33-9c0d-2eeb2435e8f9",
+      "data": [
+        {
+          "text": "I need you right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40c5e2bd-a5e1-4f73-ac51-dab682890393",
+      "data": [
+        {
+          "text": "Nobody is around me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b04c1763-b9f6-4456-8411-e173ac9cc204",
+      "data": [
+        {
+          "text": "I have no one around me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6d6aa8b-ed35-4e29-9e65-f59799a37754",
+      "data": [
+        {
+          "text": "No people are here."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d0f0e52-c9e8-41f2-89ef-2bb8ebe1a71d",
+      "data": [
+        {
+          "text": "All people are gone."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8b8514e-bbe4-4ade-8f4d-16f95297f0dc",
+      "data": [
+        {
+          "text": "Everybody is gone, I want to have some action"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d045873d-9350-42c2-8f67-93155984bfa6",
+      "data": [
+        {
+          "text": "Staying in my own room right now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11b45a7c-d995-4528-93ec-9dd8f710bedf",
+      "data": [
+        {
+          "text": "I am alone at home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51f799b9-bb98-465b-acf4-192ce0d37af9",
+      "data": [
+        {
+          "text": "No one is around."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "391da4b0-adc0-47d1-9b87-860fbf63a8f6",
+      "data": [
+        {
+          "text": "I am alone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        },
+        {
+          "name": "hidden",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Really? Me too...",
+            "Oh Baby."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Do you want us to get more... comfortable together?",
+            "I would like to see your body...",
+            "Do you want to take your clothes off for me?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

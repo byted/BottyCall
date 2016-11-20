@@ -1,0 +1,45 @@
+{
+  "id": "3a30dd0b-4b8e-4fea-977a-e1e69cd66647",
+  "name": "Explicit Context!",
+  "auto": true,
+  "contexts": [
+    "Horny"
+  ],
+  "userSays": [
+    {
+      "id": "b2fa5365-b27a-48ad-81a7-0b311782462c",
+      "data": [
+        {
+          "text": "Explicit Context!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Horny",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There you go!"
+        },
+        {
+          "imageUrl": "https://www.bandcds.co.uk/pictures/parental_advisory_explicit_content_lge_sml.jpg",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

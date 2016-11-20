@@ -1,0 +1,65 @@
+{
+  "id": "7b222f1e-9e70-4017-b87d-302272ca3866",
+  "name": "Kiss Me!",
+  "auto": true,
+  "contexts": [
+    "Horny"
+  ],
+  "userSays": [
+    {
+      "id": "d03ba615-129a-42be-ab57-88fbfedd64e8",
+      "data": [
+        {
+          "text": "Kiss Me!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72e0c4e0-dc87-4784-a236-6e7fcf0425a8",
+      "data": [
+        {
+          "text": "kiss me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "389716e0-bab6-48bb-a31e-2359623e7c76",
+      "data": [
+        {
+          "text": "Give me a kiss!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Horny",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Kiss Kiss!"
+        },
+        {
+          "imageUrl": "http://www.thelogofactory.com/wp-content/uploads/2015/10/the-kiss-logo.png",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

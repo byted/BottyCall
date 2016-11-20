@@ -1,0 +1,275 @@
+{
+  "id": "b2f7ce3e-d4eb-41f0-a609-36893d4d8dd5",
+  "name": "DT-Wearing",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "ef94b4b4-3a7d-48f9-908c-da5ab84c6de0",
+      "data": [
+        {
+          "text": "Do you remember the "
+        },
+        {
+          "text": "black",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bra",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": false
+        },
+        {
+          "text": " you love so much? I\u0027m wearing that…"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "536cc145-a28f-4926-9f7e-407002a281d9",
+      "data": [
+        {
+          "text": "Do you remember the "
+        },
+        {
+          "text": "red",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dress",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": true
+        },
+        {
+          "text": " you gave me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ca55bf6e-33bc-496a-8df3-e42d8903dbb9",
+      "data": [
+        {
+          "text": "It\u0027s that underwear you said you like on me..."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "641d20cf-ede1-4247-b420-fb449b956e62",
+      "data": [
+        {
+          "text": "I am wearing that thing you love so much"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ceaa3b0-cc52-46ee-9365-5674c30e3b38",
+      "data": [
+        {
+          "text": "I am wearing the "
+        },
+        {
+          "text": "Nickers",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": true
+        },
+        {
+          "text": " you got me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "bb57e6e7-dc7e-4ea0-b232-96e3c39b0310",
+      "data": [
+        {
+          "text": "Nothing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6dda8188-12ec-424a-ac09-dab0a8efc69f",
+      "data": [
+        {
+          "text": "a "
+        },
+        {
+          "text": "black",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sweater",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de836e4b-910c-4fa0-8df0-90fa8cf9a104",
+      "data": [
+        {
+          "text": "Some tight "
+        },
+        {
+          "text": "jeans",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": true
+        },
+        {
+          "text": " with a "
+        },
+        {
+          "text": "grey",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "blouse",
+          "alias": "Clothing1",
+          "meta": "@Clothing",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "324bb084-bf1f-4301-81bd-fa9c5914ce7f",
+      "data": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "red",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dress",
+          "alias": "Clothing",
+          "meta": "@Clothing",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1bff91c-387d-42cd-84f3-938944f1e85f",
+      "data": [
+        {
+          "text": "Only a "
+        },
+        {
+          "text": "bra",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": true
+        },
+        {
+          "text": " with lace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "dataType": "@Clothing",
+          "name": "Clothing",
+          "value": "$Clothing",
+          "isList": false
+        },
+        {
+          "dataType": "@Clothing",
+          "name": "Clothing1",
+          "value": "$Clothing1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Oh, $color . That\u0027s my favourite color on you!",
+            "$color sounds very sexy.",
+            "$color $Clothing ? That sounds amazing"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I can already picture you wearing that. It accentuates your lovely body."
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I want to get you started now.",
+            "I can\u0027t wait to get in deeper with you.",
+            "I really want you right now.",
+            "Baby, I need you."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

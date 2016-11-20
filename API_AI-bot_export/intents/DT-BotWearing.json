@@ -1,0 +1,72 @@
+{
+  "id": "6aaf35c7-24f7-43c3-8238-cea37440d188",
+  "name": "DT-BotWearing",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "1af1e243-f054-4875-9114-f629f8252748",
+      "data": [
+        {
+          "text": "You naked?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ef72c0f-ca46-4c59-9038-07b7b0693bfa",
+      "data": [
+        {
+          "text": "Do you wear any cloth?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2d317f1-c675-4f46-a0cf-bfcfe13fcb6e",
+      "data": [
+        {
+          "text": "What are you wearing?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Of course you want to know that!",
+            "I like how your mind works.",
+            "I like the way you think."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "If you were right here, you could see right through my circuits.",
+            "I am wearing some nicely tight black panties."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

@@ -1,0 +1,179 @@
+{
+  "id": "e424668a-e5a9-42ca-b91b-7eccee7bbe4e",
+  "name": "On-4-Music?",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "201db640-8578-4a34-9d89-ab6eaea4ba3e",
+      "data": [
+        {
+          "text": "I don\u0027t think that\u0027s what I need today... Do you have another idea?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "15ba0f10-afc0-46af-95c6-4018fe182cb5",
+      "data": [
+        {
+          "text": "I need something else "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffac8b45-43a9-4da2-874f-5e4dd3b74c2c",
+      "data": [
+        {
+          "text": "That doesn\u0027t work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a605aa8-9f83-4cc3-8683-994d47218fe1",
+      "data": [
+        {
+          "text": "Give me something to make me feel sexy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0e59c2e-3617-4e10-9686-ab980dd4af5f",
+      "data": [
+        {
+          "text": "You know what I want to hear"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7849726a-b48f-420c-9ac1-b86fb5b5805c",
+      "data": [
+        {
+          "text": "You always know what to say"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf874c2f-5234-4d16-b58d-6f7839d5dc31",
+      "data": [
+        {
+          "text": "Do you have an other idea?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0d9f65f2-584c-48fd-9996-017cc039a2d7",
+      "data": [
+        {
+          "text": "let\u0027s keep things exciting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31182b00-17ad-4753-b7cd-19931e606bf4",
+      "data": [
+        {
+          "text": "i want to hear something sexy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0647719-111f-41b0-8eca-5eb254449d92",
+      "data": [
+        {
+          "text": "i feel like getting some sexy sounds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "755f5260-ec9e-43d4-adf7-b6c930712fcd",
+      "data": [
+        {
+          "text": "I want some tunes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6b8e4ac-b8db-4d5f-99d2-b48adf4d83d8",
+      "data": [
+        {
+          "text": "Do you have something in store for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd998e62-88e0-4609-8b50-e06f583c30a9",
+      "data": [
+        {
+          "text": "I want to keep things interesting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "music?",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Babe, do you want to spice things up with some music?",
+            "If you want to, I have some tunes for you that you might like...",
+            "If you feel like grooving, i could get some sexy sounds for you, Baby.",
+            "You know what could get you even more in the mood? Some nice music."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

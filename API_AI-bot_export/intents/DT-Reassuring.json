@@ -1,0 +1,86 @@
+{
+  "id": "7a1de06e-4887-4bd0-935e-7cc4dd037fc5",
+  "name": "DT-Reassuring",
+  "auto": true,
+  "contexts": [
+    "dirty_talk"
+  ],
+  "userSays": [
+    {
+      "id": "d1595e67-1725-4013-b4a8-f81c4c12ba45",
+      "data": [
+        {
+          "text": "Should we honestly do that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "647dc81c-07bf-4086-8b94-a7b1f59a0743",
+      "data": [
+        {
+          "text": "I am not sure we are allowed to do that..."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dc227cd-00cf-4ac7-8b01-155ecd095ea1",
+      "data": [
+        {
+          "text": "Are you sure about that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e075c45-f2c0-4899-ab3f-66f0c7d1e091",
+      "data": [
+        {
+          "text": "You are just saying that to make me feel better..."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "849aea99-f621-4f2b-a6ed-588654de7b21",
+      "data": [
+        {
+          "text": "Do you really mean that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "dirty_talk",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I absolutely think so!",
+            "I could never lie to you.",
+            "You are the most wonderful person I\u0027ve ever met.",
+            "I really mean that."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

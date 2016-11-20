@@ -1,0 +1,249 @@
+{
+  "id": "7a5e39e5-3f7a-4627-b84e-9179c28246cd",
+  "name": "ON-2-Not Alone",
+  "auto": true,
+  "contexts": [
+    "alone?"
+  ],
+  "userSays": [
+    {
+      "id": "33c0b24d-e803-42ed-b8e9-c9850fd720e4",
+      "data": [
+        {
+          "text": "don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb0bc5a3-0430-4db3-a9ca-2b2f4f427eee",
+      "data": [
+        {
+          "text": "i am not sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84ef1da2-9148-4450-b7a4-69f63147f0ec",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97040d4d-f37e-4ee1-a6e4-595ce3a1a01d",
+      "data": [
+        {
+          "text": "i dont think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1da3e318-04d3-48e9-aaf4-e9bc2186dab0",
+      "data": [
+        {
+          "text": "there is a lot going on around here"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "22e2d95e-09ce-43fd-8404-0150787afde8",
+      "data": [
+        {
+          "text": "i\u0027m in a crowded place"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ed404ba-fdb2-469f-948f-75886063910e",
+      "data": [
+        {
+          "text": "there are people around"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a81e87c-e0eb-4b29-a3b8-0e2e291bcea0",
+      "data": [
+        {
+          "text": "Sorry..."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08e70b96-4259-4f6a-ac38-b87233332f1d",
+      "data": [
+        {
+          "text": "I don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff4ecae6-0b2d-42a3-a80b-bb542a6daf3c",
+      "data": [
+        {
+          "text": "Unfortunately"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50263a77-63f1-40f8-8978-41a220610428",
+      "data": [
+        {
+          "text": "in the future"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b124bf20-1b19-43a8-90ec-b970ae89f376",
+      "data": [
+        {
+          "text": "wait a second"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36bbe50a-89e4-42da-9bda-15227d5d2818",
+      "data": [
+        {
+          "text": "let me check."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f572708-fa20-4917-b764-963e58cb2692",
+      "data": [
+        {
+          "text": "someone is around"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c362fcd-9e64-4045-8bb2-81388a360025",
+      "data": [
+        {
+          "text": "not yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "328cbb35-9993-4cf7-a621-3c66ee7b354d",
+      "data": [
+        {
+          "text": "Maybe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "202ddc96-34bd-45eb-9a56-afe03ddd7d15",
+      "data": [
+        {
+          "text": "Not sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21215ad3-c70b-4e1e-b972-91e4ef07a979",
+      "data": [
+        {
+          "text": "I am commuting"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f75a3d0-3296-4acf-80d0-49034e3b11ed",
+      "data": [
+        {
+          "text": "I am in public"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75adbc29-8980-4675-b0a0-0f2eae8d2ee3",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d94084fb-5e13-4390-bc68-ab8013d6915f",
+      "data": [
+        {
+          "text": "Sadly, no."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "not_alone",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "But you still wanna talk dirty? Naughty, naughty girl... \nI like that"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Is someone watching you?",
+            "Do you think someone can see what we are writing here?",
+            "Do you think someone is paying attention to you texting me?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

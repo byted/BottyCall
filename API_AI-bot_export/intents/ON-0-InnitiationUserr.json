@@ -1,0 +1,81 @@
+{
+  "id": "f4dfd0c3-cdec-4a7a-8cf3-ba18c04ab65f",
+  "name": "ON-0-InnitiationUserr",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "107dfe1b-3400-4a81-891e-e8f59f1d5076",
+      "data": [
+        {
+          "text": "What\u0027s going on?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "961eadc5-cd0e-4237-94f2-ffdd7bbe922e",
+      "data": [
+        {
+          "text": "How is it going?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "990ed06f-a4c8-40e2-9a9e-813bc8505910",
+      "data": [
+        {
+          "text": "Hey, how are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52459900-20eb-4122-b1a5-c8c2f150a789",
+      "data": [
+        {
+          "text": "Hello you 😉"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "contempt",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi sweetie!",
+            "Hey babe.",
+            "Sweetheart!"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I was just thinking of you... in a special way ;) Are you in the mood for some play-time?",
+            "Are you in the mood for some one-on-one time with me?",
+            "I thought you might be in the mood for some special attention today..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}
