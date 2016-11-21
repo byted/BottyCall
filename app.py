@@ -180,10 +180,13 @@ def spotify_auth_client_credentials(client_id, client_secret):
 def log(message):  # simple wrapper for logging to stdout on heroku
     print(str(message))
     sys.stdout.flush()
-   
+
+
+client_id, client_secret = os.environ['SPOTIFY_CLIENT_ID'], os.environ['SPOTIFY_CLIENT_SECRET']
+log('client_id: ' + client_id + '/ client_secret: ' + client_secret)
+token = spotify_auth_client_credentials(client_id, client_secret)
+log('spotify token: ' + token)
+sp = spotipy.Spotify(auth=token)
 
 if __name__ == '__main__':
-    client_id, client_secret = os.environ['SPOTIFY_CLIENT_ID'], os.environ['SPOTIFY_CLIENT_SECRET']
-    token = spotify_auth_client_credentials(client_id, client_secret)
-    sp = spotipy.Spotify(auth=token)
     app.run(debug=True)
