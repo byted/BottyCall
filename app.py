@@ -2,29 +2,12 @@ import os
 import sys
 import json
 import spotipy
-import spotipy.util as util
+import base64
 import random
-
 import requests
 from flask import Flask, request, jsonify
 
-# scope = 'playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private streaming user-library-read'
-
-token='BQD0diCgx8BWtfTC2kl5XBuF-nGKMJlGgp4_XsCIjoR-STaMpuDtesnyhCSJlRPmx8BtC85FzRtr_GthtQ-cy8riXiCkUGeW7C-cNe9eghjlO0HTz7dDZxqlop0yaYfPKOXj64LZNUz3C75oe4xzAB3fWoWaQ7biOO0zg_WZI2GzM_c81CVaIFSbW0ijOUltIBY5dfeGKPwU7OVmp3AjQwzXBxRSXr27_yCCFBetYEzHNX_S6qR04roOohy90YjdOd52fDw271BY5Xe37CqpD1C9pLA13pRsC6l-T1dqAwCdScOC'
 app = Flask(__name__)
-
-
-@app.route('/', methods=['GET'])
-def verify():
-    # when the endpoint is registered as a webhook, it must echo back
-    # the 'hub.challenge' value it receives in the query arguments
-    if request.args.get("hub.mode") == "subscribe" and request.args.get("hub.challenge"):
-        if not request.args.get("hub.verify_token") == os.environ["VERIFY_TOKEN"]:
-            return "Verification token mismatch", 403
-        return request.args["hub.challenge"], 200
-
-    return "Hello world", 200
-
 
 @app.route('/', methods=['POST'])
 def webhook():
@@ -116,19 +99,22 @@ def webhook():
 @app.route('/init', methods=['GET'])
 def init():
     uid = request.args.get('uid')
-    first = [
+    first = random.choice([
         'Sweetheart!',
         'Hey babe.',
         'Hi sweetie!'
-    ]
-    second = [
+    ])
+    second = random.choice([
         'I was just thinking of you... in a special way ;) Are you in the mood for some play-time?',
         'Are you in the mood for some one-on-one time with me?',
         'I thought you might be in the mood for some special attention today...'
-    ]
+    ])
+    
     res = []
-    res.append(send_fb_message(uid, random.choice(first)))
-    res.append(send_fb_message(uid, random.choice(second)))
+    if send_fb_message(uid, first):
+        res.append('sent message "{}" to user_id {}'.format(first, uid))
+    if send_fb_message(uid, second):
+        res.append('sent message "{}" to user_id {}'.format(first, uid))
     return '<br>'.join(res)
 
 
@@ -169,19 +155,11 @@ def get_rec():
 
 def send_fb_message(recipient_id, message_text):
     log("sending message to {recipient}: {text}".format(recipient=recipient_id, text=message_text))
-    params = {
-        "access_token": "EAAFDBWJmmpoBAAxgZAdXTybkgSd4HNvu08bbiBGogPSvHmYwU6r7pjLmRFEKtoUXx1J8WMR2wd83z5iyFUcEA0lmfKPxpSwjmccedZCDR4IeJYtlbhYQuIyTSLQKsvk5FpaRYigrGMP6d5FSXZCHSINuXQoPiOo3q0qAjhAqwZDZD"
-    }
-    headers = {
-        "Content-Type": "application/json"
-    }
+    params = {'access_token': os.environ['FB_ACCESS_TOKEN']}
+    headers = {'Content-Type': 'application/json'}
     data = json.dumps({
-        "recipient": {
-            "id": recipient_id
-        },
-        "message": {
-            "text": message_text
-        }
+        'recipient': {'id': recipient_id},
+        'message': {'text': message_text}
     })
     r = requests.post("https://graph.facebook.com/v2.6/me/messages", params=params, headers=headers, data=data)
     if r.status_code != 200:
@@ -189,15 +167,23 @@ def send_fb_message(recipient_id, message_text):
         log(r.text)
         return r.text, r.status
     else:
-        return 'sent message "{}" to user_id {}'.format(message_text, recipient_id)
+        return true
+
+
+def spotify_auth_client_credentials(client_id, client_secret):
+    data = {'grant_type': 'client_credentials'}
+    r = requests.post('https://accounts.spotify.com/api/token', data=data, auth=(client_id, client_secret))
+    log('Got from Spotify: {}'.format(r.text))
+    return json.loads(r.text)['access_token'] if r.status_code == 200 else None
 
 
 def log(message):  # simple wrapper for logging to stdout on heroku
     print(str(message))
     sys.stdout.flush()
-
+   
 
 if __name__ == '__main__':
+    client_id, client_secret = os.environ['SPOTIFY_CLIENT_ID'], os.environ['SPOTIFY_CLIENT_SECRET']
+    token = spotify_auth_client_credentials(client_id, client_secret)
     sp = spotipy.Spotify(auth=token)
-
     app.run(debug=True)
