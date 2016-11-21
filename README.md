@@ -8,4 +8,4 @@ Used
 * Python/Flask for the backend
 * [Spotify](http://spotify.com) for additional mood content
 
-_Note: the FB and Spotify tokens located in the talk are outdated ;)_
+_Note: the FB and Spotify tokens located in the repo are outdated ;)_
