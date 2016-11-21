@@ -1,4 +1,4 @@
-# BotyCall
+# BottyCall
 
 for [Bothack Berlin](http://bothack.berlin)
 
